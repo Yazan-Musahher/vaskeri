@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
 import { getAuth, signInWithEmailAndPassword, signOut } from 'firebase/auth';
 import { useNavigation } from '@react-navigation/native';
-import { Picker } from '@react-native-picker/picker'; // Import the Picker component from the new package
+import { Picker } from '@react-native-picker/picker';
 
 // Helper function to generate time slots from 08:00 to 20:00 with 1-hour 30-minute intervals
 const generateTimeSlots = () => {
