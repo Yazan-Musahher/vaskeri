@@ -94,7 +94,7 @@ const styles = StyleSheet.create({
   },
 
   image: {
-    width: 100, // Adjust the width and height as per your image dimensions
+    width: 100,
     height: 75,
     marginBottom: 25,
   },
@@ -104,7 +104,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   extraText: {
-    fontSize: 25, // Increase the font size to 30
+    fontSize: 25,
     fontWeight: 'bold',
     position: 'absolute',
     top: -120,
@@ -112,7 +112,7 @@ const styles = StyleSheet.create({
 
   inputContainer: {
     width: '80%',
-    marginBottom: 60, // Add some space between inputs and the wave
+    marginBottom: 60,
   },
   input: {
     backgroundColor: 'white',
